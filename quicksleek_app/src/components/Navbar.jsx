@@ -10,7 +10,7 @@ const Navbar = () => {
       id="navbar"
       className="w-full flex py-6 justify-between items-center navbar"
     >
-      <a href="#">
+      <a href="/" onClick={() => window.location.reload()}>
         <img src={logo} alt="quicksleek" className="w-[160px] h-[70px]" />
       </a>
 
