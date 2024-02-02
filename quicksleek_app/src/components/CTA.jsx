@@ -31,7 +31,7 @@ const CTA = () => (
       <form action="#" className={`font-poppins space-y-8 pt-8 font-normal`}>
         <div className="flex flex-wrap">
           {/* Name Input */}
-          <div className="relative mr-3">
+          <div className="relative mr-3 flex-1">
             <RevealX duration={0.9} startPos={30} once={false} delay={0}>
               <input
                 type="text"
