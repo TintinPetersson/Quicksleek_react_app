@@ -26,7 +26,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-pink-gradient {
@@ -72,14 +71,6 @@
     rgba(255, 255, 255, 0) -341.94%,
     #14101d 95.11%
   );
-}
-
-.bg-glass {
-  background: rgba(255, 255, 255, 0.19);
-  border-radius: 10px;
-  backdrop-filter: blur(3.5px);
-  -webkit-backdrop-filter: blur(3.5px);
-  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .bg-discount-gradient {
@@ -198,6 +189,7 @@
 }
 
 .hero-image {
+  will-change: transform;
   animation: float 6s ease-in-out infinite;
 }
 
